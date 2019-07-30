@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SweetDialog</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="done">DONE</string>
+    <string name="cancle">CANCLE</string>
+</resources>

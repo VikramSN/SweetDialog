@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/rootAlert"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/card_plain"
+              android:orientation="vertical"
+              android:padding="10dp">
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:text="@string/title"
+            android:textColor="@color/black"/>
+
+    <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:importantForAutofill="no"
+            android:padding="10dp"
+            android:text="@string/message"
+            android:textColor="@color/black"
+            tools:ignore="LabelFor,UnusedAttribute"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+        <TextView
+                android:id="@+id/negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_back"
+                android:backgroundTint="@color/red"
+                android:gravity="center"
+                android:layout_marginEnd="25dp"
+                android:padding="15dp"
+                android:text="@string/cancle"
+                android:textColor="@color/white"/>
+
+        <TextView
+                android:id="@+id/positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_back"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/done"
+                android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>
