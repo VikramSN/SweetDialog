@@ -20,10 +20,12 @@ allprojects {
 </pre>
 <pre>
 <b>Utilization of library
-=======================</b>
+=======================
+</b>
  
- <b style="color:red">Some Important Points.</b>
-  Property                        Value                                 Type
+ <b style='color:red'>SOME IMPORTANT POINTS.</b>
+ 
+  <b>Property                        Value                                 Type</b>
   Title                           Anything/null                         String
   Message                         Anything/null                         String
   Cancelable                      true/false                            Boolean
