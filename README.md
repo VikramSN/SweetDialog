@@ -25,6 +25,18 @@ minSdkVersion 17
 	}
 </b>
 </pre>
+
+<pre><b>If this error occur ( Error: Default interface methods are only supported starting with Android N (--min-api 24): android.view.MenuItem androidx.core.internal.view.SupportMenuItem.setContentDescription(java.lang.CharSequence))
+
+SOLUTION
+android {
+compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    		}
+	}
+</b></pre>
+
 <pre>
 <b>Utilization of library
 =======================
@@ -44,8 +56,8 @@ minSdkVersion 17
   boolListData                    Anything/null                         Array<Boolean>
   OnClick                         object:Interface{}                    Interface
   itemOnClick                     object:Interface{}                    Interface
-  
 </pre>
+
 <b>Simple Alert with Single Button</b>
 -------------------------------
 <pre>
