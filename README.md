@@ -10,7 +10,14 @@ allprojects {
 		}
 	}
  </b></pre>
-  
+
+<b> Minimum SDK VERSION should be 17 </b>
+<pre><b>
+android {
+minSdkVersion 17
+}</b>
+</pre>
+
  Step 2. Add the dependency
  <pre><b>
  dependencies {
