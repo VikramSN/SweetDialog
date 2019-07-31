@@ -14,7 +14,7 @@ allprojects {
  Step 2. Add the dependency
  <pre><b>
  dependencies {
-	        implementation 'com.github.VikramSN:SweetDialog:Tag'
+	        implementation 'com.github.VikramSN:SweetDialog:0.1.0'
 	}
 </b>
 </pre>
