@@ -3,7 +3,7 @@ package com.vsn.sweetdialog.callbacks
 import android.widget.LinearLayout
 import android.widget.TextView
 
-interface CustomDialog {
+public interface CustomDialog {
 
     fun positive(positiveUi: TextView)
 
